@@ -1,0 +1,51 @@
+@use 'colors' as c;
+
+.menu {
+
+    &__list {
+        margin-top: 3em;
+        padding: .6em;
+        border-radius: 15px;
+        list-style: none;
+        background-color: c.$blue;
+    
+        &--item {
+            margin: 0 .1em;
+            display: inline-block;
+        
+            &-btn {
+                width: 15px;
+                height: 15px;
+                background-color: #fff;
+                border: none;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: background-color .3s;
+            }
+        }
+    }
+
+}   
+
+.activeBtn {
+    background-color: #333;
+}
+
+@media (min-width:800px) {
+    
+    .menu {
+        
+        &__list {
+            padding: .7em;
+        
+            &--item {
+            
+                &-btn {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+
+}
