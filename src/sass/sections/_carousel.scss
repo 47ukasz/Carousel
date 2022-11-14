@@ -1,4 +1,4 @@
-@use "colors" as c; 
+@use 'colors' as c; 
 
 .carousel {
     padding: 1em;
@@ -40,15 +40,15 @@
             cursor: zoom-in;
 
             &-first {
-                background-image: url('/dist/img/bridge_small.jpg');
+                background-image: url('../img/bridge_small.jpg');
             }
     
             &-second {
-                background-image: url('/dist/img/bulldog_small.jpg');
+                background-image: url('../img/bulldog_small.jpg');
             }
     
             &-third {
-                background-image: url('/dist/img/sea_small.jpg');
+                background-image: url('../img/sea_small.jpg');
             }
         }
     }
@@ -93,15 +93,15 @@
                 height: 500px;
             
                 &-first {
-                    background-image: url('/dist/img/bridge_big.jpg');
+                    background-image: url('../img/bridge_big.jpg');
                 }
         
                 &-second {
-                    background-image: url('/dist/img/bulldog_big.jpg');
+                    background-image: url('../img/bulldog_big.jpg');
                 }
         
                 &-third {
-                    background-image: url('/dist/img/sea_big.jpg');
+                    background-image: url('../img/sea_big.jpg');
                 }
             }
         }

@@ -1,7 +1,17 @@
-import pictures from './data/pictures.js'
-
 let carousel, carouselNextBtn, carouselPrevBtn, allCarouselItems, allMenuDots, zoomSection, zoomCloseSectionBtn
 let currentindex = 0
+
+const pictures = [
+    {
+        src: './dist/img/bridge_big.jpg'
+    },
+    {
+        src: './dist/img/bulldog_big.jpg'
+    },
+    {
+        src: './dist/img/sea_big.jpg'
+    }
+]
 
 const main = () => {
     prepareDOMElements()
